@@ -4,7 +4,7 @@ SCR_ChimeraCharacter : "{6CAFB2D7E9ADC951}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{437595F91A04AE81}Prefabs/Characters/HeadGear/Helmet_ECH/variants/Helmet_ECH_lc_v_crossbow.et"
+     Prefab "{327C2465A50D016A}Prefabs/Characters/HeadGear/Helmet_ECH/variants/Helmet_ECH_lc_l_crossbow.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{E8EA7FFEFB072D20}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_Arid.et"
