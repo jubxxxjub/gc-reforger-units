@@ -1,0 +1,141 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CanTurnOut 1
+     m_bIsWaterTight 1
+    }
+   }
+  }
+  SCR_DamageManagerComponent "{51ACD09C524A7924}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Turret {
+     IgnoreExplosions 1
+     MaxHealth 7380
+     DamageReduction 43
+     DamageThreshold 85
+     "Melee multiplier" 1
+     "Fragmentation multiplier" 1
+     "Explosive multiplier" 1
+     "DamageState threshold" {
+     }
+     m_aDamagePassRules {
+      SCR_DamagePassRule "{60AAF83A13B1AFB5}" {
+      }
+     }
+    }
+   }
+  }
+  TurretComponent "{648D4468ADB950F0}" {
+   components {
+    RHS_2DSightsComponentV2 "{69576E4E491502C9}" {
+     SightsPosition PointInfo "{69576E4E840DC207}" {
+      PivotID "v_gun_01"
+      Offset -0.4233 0.2639 -0.2019
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{69576E4E9832C091}" {
+      m_fZoomMax 1
+     }
+     SightsPointFront PointInfo "{69576E4E950C8838}" {
+      PivotID "v_gun_01"
+      Offset -0.4233 0.2639 -0.2019
+     }
+     SightsPointRear PointInfo "{69576E4EAF720940}" {
+      PivotID "v_gun_01"
+      Offset -0.4233 0.2639 -0.3425
+     }
+     ADSTime 0
+     CameraRecoilAmount 0
+     m_sReticleTexture "{A873399F8B954F08}UI/Textures/Sights/Reticle_Viewport_BCR.edds"
+     m_sReticleGlowTexture "{A873399F8B954F08}UI/Textures/Sights/Reticle_Viewport_BCR.edds"
+     m_ReticleOutlineColor 0 0 0 1
+     m_fReticleTextureGlowAlpha 1
+     m_bIsNVGCompatible 1
+     m_fObjectiveFov 4.4
+     m_sRHSLayoutOverlayResource "{C5E2E281F03A5CE8}UI/layouts/Sights/Optic_Triplex.layout"
+    }
+    SCR_2DSightsComponent "{648D4468ADB950EF}" {
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{648D4468ADB950E9}" {
+      m_fBaseZoom 6
+      m_fZoomMax 6
+     }
+     SightsPriority 1
+     m_bIsNVGCompatible 1
+     m_fObjectiveFov 47.6
+    }
+   }
+  }
+  WCS_Armament_TurretStabilizationComponent "{64E8EDD554868281}" {
+   m_fHorizontalStabilizationSpeed 24
+   m_fVerticalStabilizationSpeed 18.5
+   m_fStabilizationGain 0.72
+  }
+  WCS_Armament_VehicleCameraComponent "{69576E4EDE87E213}" {
+   m_Cameras {
+    WCS_VehicleCameraProps "{69576E4EDF5610CC}" {
+     m_Position PointInfo "{69576E41A86F4046}" {
+      PivotID "v_turret_01"
+      Offset -0.6302 0.4029 0.0801
+      Angles 0 -32.2212 0
+     }
+     m_OverlayLayout "{BFF68E55260435B4}UI/layouts/Sights/Optic_Widgets_LAV25_RHS.layout"
+     m_sId "G_FL"
+    }
+    WCS_VehicleCameraProps "{69576E4EDF03361E}" {
+     m_Position PointInfo "{69576E41A97827A9}" {
+      PivotID "v_turret_01"
+      Offset -0.1998 0.4029 0.0801
+      Angles 0 29.7529 0
+     }
+     m_OverlayLayout "{BFF68E55260435B4}UI/layouts/Sights/Optic_Widgets_LAV25_RHS.layout"
+     m_sId "G_FR"
+    }
+   }
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{69576E4102F005BB}" {
+     ContextName "G_FL"
+     Position PointInfo "{69576E411786A3D7}" {
+      PivotID "v_turret_01"
+      Offset -0.5615 0.249 0.0164
+      Angles 0 -34.9467 0
+     }
+    }
+    UserActionContext "{69576E4110588EEB}" {
+     ContextName "G_FR"
+     Position PointInfo "{69576E4110588E29}" {
+      PivotID "v_turret_01"
+      Offset -0.2624 0.2682 -0.037
+      Angles 0 43.0113 0
+     }
+    }
+   }
+   additionalActions {
+    WCS_Armament_VehicleCameraAction "{69576E4020224052}" {
+     ParentContextList {
+      "G_FL"
+     }
+     ActionTitle "G_FL"
+     m_sCameraId "G_FL"
+    }
+    WCS_Armament_VehicleCameraAction "{69576E403E8C96E1}" {
+     ParentContextList {
+      "G_FR"
+     }
+     ActionTitle "G_FR"
+     m_sCameraId "G_FR"
+    }
+   }
+  }
+  RHS_TurretDestructionComponent "{69576E4490D84308}" {
+   m_sDestructionParticle "{3DFFA0F36BFA60D2}Particles/Vehicle/Vehicle_TurretDestruction.ptc"
+   m_DestructionParticlePosition PointInfo "{69576E44A999011D}" {
+    PivotID "v_turret_01"
+   }
+  }
+ }
+ coords 1.945 2.207 -1.545
+}

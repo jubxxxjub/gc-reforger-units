@@ -1,0 +1,319 @@
+Tank : "{2FCF3A82322F7390}IFV/BMP2/BMP2_Olive.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     CanTurnOut 1
+    }
+   }
+  }
+  SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     "Collision multiplier" 1
+    }
+   }
+   m_iMinExplosionEjectionDamageThreshold 250
+   m_iExplosionDamageEjectionChance 0.5
+   m_iMinCollisionEjectionDamageThreshold 90
+   m_iCollisionDamageEjectionChance 0.5
+  }
+  WCS_Armament_VehicleCameraComponent "{69576E79FA24882B}" {
+   m_Cameras {
+    WCS_VehicleCameraProps "{69576E79FA248818}" {
+     m_Position PointInfo "{69576E79FA24881A}" {
+      PivotID "driver_idle"
+      Offset -0.0815 0.6166 1.5035
+      Angles 0 49.8591 0
+     }
+     m_OverlayLayout "{A9758BBE1909FEFD}UI/layouts/Editor/Overlays/Vignettes/GCC_Vignette_VeryHeavy.layout"
+     m_sId "DV_FR"
+    }
+    WCS_VehicleCameraProps "{69576E79FA248804}" {
+     m_Position PointInfo "{69576E79FA2463C0}" {
+      PivotID "driver_idle"
+      Offset -0.3571 0.6245 1.5772
+     }
+     m_OverlayLayout "{A9758BBE1909FEFD}UI/layouts/Editor/Overlays/Vignettes/GCC_Vignette_VeryHeavy.layout"
+     m_sId "DV_C"
+    }
+    WCS_VehicleCameraProps "{69576E79FA2463C2}" {
+     m_Position PointInfo "{69576E79FA2463C5}" {
+      PivotID "driver_idle"
+      Offset -0.6245 0.6211 1.4869
+      Angles 0 -38.79 0
+     }
+     m_OverlayLayout "{A9758BBE1909FEFD}UI/layouts/Editor/Overlays/Vignettes/GCC_Vignette_VeryHeavy.layout"
+     m_sId "DVFL"
+    }
+    WCS_VehicleCameraProps "{69576E79FA2463C7}" {
+     m_Position PointInfo "{69576E79FA2463C6}" {
+      PivotID "driver_idle"
+      Offset -0.7259 0.6353 1.1843
+      Angles 0 -87.8732 0
+     }
+     m_OverlayLayout "{A9758BBE1909FEFD}UI/layouts/Editor/Overlays/Vignettes/GCC_Vignette_VeryHeavy.layout"
+     m_sId "DC_L"
+    }
+    WCS_VehicleCameraProps "{69576E79FA2463C9}" {
+     m_Position PointInfo "{69576E79FA2463C8}" {
+      PivotID "codriver_idle"
+      Offset -1.0799 0.7196 0.8871
+     }
+     m_OverlayLayout "{A9758BBE1909FEFD}UI/layouts/Editor/Overlays/Vignettes/GCC_Vignette_VeryHeavy.layout"
+     m_sId "CD_C"
+    }
+    WCS_VehicleCameraProps "{69576E79FA2463CB}" {
+     m_Position PointInfo "{69576E79FA2463CA}" {
+      PivotID "codriver_idle"
+      Offset -1.3926 0.6654 0.7914
+      Angles 0 -40.684 0
+     }
+     m_OverlayLayout "{A9758BBE1909FEFD}UI/layouts/Editor/Overlays/Vignettes/GCC_Vignette_VeryHeavy.layout"
+     m_sId "CD_FL"
+    }
+    WCS_VehicleCameraProps "{69576E79FA2463B5}" {
+     m_Position PointInfo "{69576E79FA25F3F1}" {
+      PivotID "passengerl_idle"
+      Offset -0.6189 0.7475 0.2105
+      Angles 0 -69.3019 0
+     }
+     m_OverlayLayout "{A9758BBE1909FEFD}UI/layouts/Editor/Overlays/Vignettes/GCC_Vignette_VeryHeavy.layout"
+     m_sId "P_L1"
+    }
+    WCS_VehicleCameraProps "{69576E79FA25F3F0}" {
+     m_Position PointInfo "{69576E79FA25F3F3}" {
+      PivotID "passengerl_idle"
+      Offset -0.54 0.7475 -0.4161
+      Angles 0 -68.6532 0
+     }
+     m_OverlayLayout "{A9758BBE1909FEFD}UI/layouts/Editor/Overlays/Vignettes/GCC_Vignette_VeryHeavy.layout"
+     m_sId "P_L2"
+    }
+    WCS_VehicleCameraProps "{69576E79FA25F3F2}" {
+     m_Position PointInfo "{69576E79FA259882}" {
+      PivotID "passengerl_idle"
+      Offset -0.495 0.7475 -0.7562
+      Angles 0 -70.737 0
+     }
+     m_OverlayLayout "{A9758BBE1909FEFD}UI/layouts/Editor/Overlays/Vignettes/GCC_Vignette_VeryHeavy.layout"
+     m_sId "P_L3"
+    }
+    WCS_VehicleCameraProps "{69576E79FA25988D}" {
+     m_Position PointInfo "{69576E79FA25988C}" {
+      PivotID "passengerr_idle"
+      Offset 0.9199 0.7138 1.1407
+      Angles 0 69.7256 0
+     }
+     m_OverlayLayout "{A9758BBE1909FEFD}UI/layouts/Editor/Overlays/Vignettes/GCC_Vignette_VeryHeavy.layout"
+     m_sId "P_L1"
+    }
+    WCS_VehicleCameraProps "{69576E79FA255DBF}" {
+     m_Position PointInfo "{69576E79FA255DBC}" {
+      PivotID "passengerr_idle"
+      Offset 0.8233 0.7138 0.5127
+      Angles 0 -18.6041 0
+     }
+     m_OverlayLayout "{A9758BBE1909FEFD}UI/layouts/Editor/Overlays/Vignettes/GCC_Vignette_VeryHeavy.layout"
+     m_sId "P_L2"
+    }
+    WCS_VehicleCameraProps "{69576E79FA255DBD}" {
+     m_Position PointInfo "{69576E79FA255DA0}" {
+      PivotID "passengerr_idle"
+      Offset 0.7732 0.7138 0.1645
+      Angles 0 -21.1856 0
+     }
+     m_OverlayLayout "{D57707DC3F64E6AB}UI/layouts/Sights/Optic_Stryker.layout"
+     m_sId "P_L3"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{69576E79FA255DAC}" {
+     ContextName "DV_FR"
+     Position PointInfo "{69576E79FA255DAD}" {
+      PivotID "driver_idle"
+      Offset -0.1017 0.4914 1.4099
+      Angles 0 -49.6774 0
+     }
+     Radius 0.4
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+    UserActionContext "{69576E79FA255DAA}" {
+     ContextName "DV_C"
+     Position PointInfo "{69576E79FA255DA8}" {
+      PivotID "driver_idle"
+      Offset -0.3674 0.5113 1.5113
+      Angles 0 -89.8619 0
+     }
+     Radius 0.4
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+    UserActionContext "{69576E79FA255D96}" {
+     ContextName "DV_FL"
+     Position PointInfo "{69576E79FA250244}" {
+      PivotID "driver_idle"
+      Offset -0.6155 0.5113 1.4079
+      Angles 0 -123.7243 0
+     }
+     Radius 0.4
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+    UserActionContext "{69576E79FA250245}" {
+     ContextName "DV_L"
+     Position PointInfo "{69576E79FA250246}" {
+      PivotID "driver_idle"
+      Offset -0.7103 0.5113 1.143
+      Angles 0 179.8918 0
+     }
+     Radius 0.4
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+    UserActionContext "{69576E79FA250247}" {
+     ContextName "CD_C"
+     Position PointInfo "{69576E79FA22FD88}" {
+      PivotID "driver_idle"
+      Offset -0.3579 0.5113 0.7711
+      Angles 0 179.8918 0
+     }
+     Radius 0.4
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+    UserActionContext "{69576E79FA22FD8F}" {
+     ContextName "CD_L"
+     Position PointInfo "{69576E79FA22FD8E}" {
+      PivotID "driver_idle"
+      Offset -0.5798 0.5113 0.7008
+      Angles 0 143.3952 0
+     }
+     Radius 0.4
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+    UserActionContext "{69576E79FA22FD8D}" {
+     ContextName "P_L1"
+     Position PointInfo "{69576E79FA229A4E}" {
+      PivotID "driver_idle"
+      Offset -0.4649 0.5113 -1.408
+      Angles 0 111.7834 0
+     }
+     Radius 0.4
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+    UserActionContext "{69576E79FA229A4F}" {
+     ContextName "P_L2"
+     Position PointInfo "{69576E79FA229A40}" {
+      PivotID "driver_idle"
+      Offset -0.391 0.5113 -2.0362
+      Angles 0 110.8421 0
+     }
+     Radius 0.4
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+    UserActionContext "{69576E79FA229A41}" {
+     ContextName "P_L3"
+     Position PointInfo "{69576E79FA229A42}" {
+      PivotID "driver_idle"
+      Offset -0.3701 0.5286 -2.4001
+      Angles 0 111.7613 0
+     }
+     Radius 0.4
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+    UserActionContext "{69576E79FA229A43}" {
+     ContextName "P_L1"
+     Position PointInfo "{69576E79FA22521F}" {
+      PivotID "driver_idle"
+      Offset 1.1568 0.5286 -1.4205
+      Angles 0 161.92641 0
+     }
+     Radius 0.4
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+    UserActionContext "{69576E79FA225218}" {
+     ContextName "P_L2"
+     Position PointInfo "{69576E79FA225219}" {
+      PivotID "driver_idle"
+      Offset 1.0801 0.5286 -2.0357
+      Angles 0 156.5249 0
+     }
+     Radius 0.4
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+    UserActionContext "{69576E79FA22521A}" {
+     ContextName "P_L3"
+     Position PointInfo "{69576E79FA22521B}" {
+      PivotID "driver_idle"
+      Offset 1.0497 0.5286 -2.3868
+      Angles 0 160.4507 0
+     }
+     Radius 0.4
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+   }
+   additionalActions {
+    WCS_Armament_VehicleCameraAction "{69576E79FA22520F}" {
+     ActionTitle "DV_FR"
+     m_sCameraId "DV_FR"
+    }
+    WCS_Armament_VehicleCameraAction "{69576E79FA225208}" {
+     ActionTitle "DV_C"
+     m_sCameraId "DV_C"
+    }
+    WCS_Armament_VehicleCameraAction "{69576E79FA225209}" {
+     ActionTitle "DV_FL"
+     m_sCameraId "DV_FL"
+    }
+    WCS_Armament_VehicleCameraAction "{69576E79FA225ED0}" {
+     ActionTitle "DV_L"
+     m_sCameraId "DV_L"
+    }
+    WCS_Armament_VehicleCameraAction "{69576E79FA225ED2}" {
+     ActionTitle "CD_C"
+     m_sCameraId "CD_L"
+    }
+    WCS_Armament_VehicleCameraAction "{69576E79FA2222FC}" {
+     ActionTitle "CD_L"
+     m_sCameraId "CD_L"
+    }
+    WCS_Armament_VehicleCameraAction "{69576E79FA222303}" {
+     ActionTitle "P_L1"
+     m_sCameraId "P_L1"
+    }
+    WCS_Armament_VehicleCameraAction "{69576E79FA222302}" {
+     ActionTitle "P_L2"
+     m_sCameraId "P_L2"
+    }
+    WCS_Armament_VehicleCameraAction "{69576E79FA23DFC8}" {
+     ActionTitle "P_L3"
+     m_sCameraId "P_L3"
+    }
+    WCS_Armament_VehicleCameraAction "{69576E79FA23DFCB}" {
+     ActionTitle "P_R1"
+     m_sCameraId "P_R1"
+    }
+    WCS_Armament_VehicleCameraAction "{69576E79FA23DFCA}" {
+     ActionTitle "P_R2"
+     m_sCameraId "P_R3"
+    }
+    WCS_Armament_VehicleCameraAction "{69576E79FA23AA99}" {
+     ActionTitle "P_R3"
+     m_sCameraId "P_R3"
+    }
+   }
+  }
+ }
+}
