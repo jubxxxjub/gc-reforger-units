@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{744B72911347B0EF}Prefabs/Characters/HeadGear/Helmet_SPH4_01/Helmet_SPH4_01_NVG.et"
+     Prefab "{664CADB6124FC477}Prefabs/Characters/HeadGear/Helmet_CVC_01/Helmet_CVC_Shroud_PVS14.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{B137B7CE988557D2}Prefabs/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_01.et"
@@ -51,9 +51,8 @@ SCR_ChimeraCharacter : "{F92C060CACCE8143}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "ArmoredVest/Vest_SRU21P.et"
     }
     ItemsInitConfigurationItem "{66B4211E199B8F9A}" {
-     PrefabsToSpawn + {
-      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
-     }
+     Enabled 0
+     TargetStorage ""
     }
     ItemsInitConfigurationItem "{6962D40F0E88E590}" {
      TargetStorage "ArmoredVest/Vest_SRU21P.et"
