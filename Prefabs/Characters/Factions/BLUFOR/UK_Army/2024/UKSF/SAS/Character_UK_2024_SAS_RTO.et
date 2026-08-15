@@ -22,10 +22,10 @@ SCR_ChimeraCharacter : "{C0358E410861BD1D}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab "{49455BCE977B5F85}Prefabs/Characters/Uniforms/Crye/Crye_GB4/Crye_GB4_Shirt_Rolled_MC.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{B34AF9076D0F240E}Prefabs/Characters/Vests/Body_Armour/Vest_Crye_CPC/Variants/Vest_Crye_CPC_Rifleman_01.et"
+     Prefab "{4309510E40DDB98E}Prefabs/Characters/Vests/Body_Armour/Vest_Crye_JPC_2/Variants/Vest_Crye_JPC_Rifleman_01.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{26BBC4FA9CE02F61}Prefabs/Characters/Backpacks/Radio/Kombat_Radio_Pack_MTP.et"
+     Prefab "{26BBC4FA9CE02F61}Prefabs/Items/Equipment/Radios/UK/Kombat_Radio_Pack_MTP.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{26918251753A100D}Prefabs/Characters/Vests/Belts/Webbing/JayJays_Gen4/Variants/Webbing_JayJays_Gen4_Rifleman_01.et"

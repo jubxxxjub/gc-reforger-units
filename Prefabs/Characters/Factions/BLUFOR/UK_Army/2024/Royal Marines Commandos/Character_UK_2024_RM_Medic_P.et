@@ -15,6 +15,7 @@ SCR_ChimeraCharacter : "{52E1968F69C21D5B}Prefabs/Characters/Factions/BLUFOR/UK_
     LoadoutSlotInfo Jacket {
     }
     LoadoutSlotInfo ArmoredVest {
+     Prefab "{4309510E40DDB98E}Prefabs/Characters/Vests/Body_Armour/Vest_Crye_JPC_2/Variants/Vest_Crye_JPC_Rifleman_01.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{E57C6FC2DEF86528}Prefabs/Characters/Backpacks/Daysacks/Camelbak_BFM/Camelbak_BFM_MC.et"

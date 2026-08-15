@@ -12,7 +12,10 @@ SCR_ChimeraCharacter : "{94DB2F66DDCD8783}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab "{F4EA5339BC3DA620}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MT_MC_Liberator.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{37F0F78149E3E78B}Prefabs/Characters/Vests/Body_Armour/Vest_Crye_CPC/Variants/Vest_Crye_CPC_Rifleman_02_FDE.et"
+     Prefab "{4A11957AAD447582}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MC.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{5D934E927F723048}Prefabs/Characters/Backpacks/Panels/TYR_TT_Huron/TYR_TT_Huron_MC.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{8D4A4DF9111F0682}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Blk.et"

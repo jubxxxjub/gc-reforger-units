@@ -1,6 +1,17 @@
 SCR_ChimeraCharacter : "{4AF2023E868540E7}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Regulars/Character_UK_1989_Regulars_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{7C53E6DE2E4BD8CB}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo.et"
+      }
+     }
+    }
+   }
+  }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }
@@ -31,7 +42,7 @@ SCR_ChimeraCharacter : "{4AF2023E868540E7}Prefabs/Characters/Factions/BLUFOR/UK_
      Prefab "{2765CDAAA6FE1C73}Prefabs/Characters/Uniforms/Crye/Crye_G4/Crye_G4_Combat_Shirt_MC.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{28A81BA1BCCED69B}Prefabs/Characters/Vests/Body_Armour/Vest_Crye_CPC/Variants/Vest_Crye_CPC_Plain.et"
+     Prefab "{4A11957AAD447582}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MC.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{6170F376E4C8D3B9}Prefabs/Characters/Uniforms/Crye/Crye_G4/Crye_G4_Combat_Pants_MC.et"
@@ -48,8 +59,21 @@ SCR_ChimeraCharacter : "{4AF2023E868540E7}Prefabs/Characters/Factions/BLUFOR/UK_
     LoadoutSlotInfo HandWear {
      Prefab "{B9FA26F5990CDEDD}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_MC.et"
     }
+    LoadoutSlotInfo EyeWear {
+     Prefab "{6861A478A4097168}Prefabs/Characters/HeadGear/EyeWear/Revision_Sawfly/Revison_Sawfly_Tan_Yellow.et"
+    }
+    LoadoutSlotInfo FaceWear {
+     Prefab "{EBE19DDC0B1B23E1}Prefabs/Characters/HeadGear/Masks/Masks_Snood/Masks_Snood_CB.et"
+    }
+    LoadoutSlotInfo Eyes {
+     AreaType ZEL_EyesArea "{64F94B2CD2F2DE1C}" {
+      m_ShouldHide 0
+     }
+    }
     LoadoutSlotInfo Face {
-     Prefab "{75F3ED41A7F79D93}Prefabs/Characters/HeadGear/Masks/Masks_Keela_Snood/Masks_Keela_Snood_MC.et"
+     AreaType ZEL_FaceArea "{64F94B2CD7864FF6}" {
+      m_ShouldHide 0
+     }
     }
    }
   }
@@ -78,7 +102,7 @@ SCR_ChimeraCharacter : "{4AF2023E868540E7}Prefabs/Characters/Factions/BLUFOR/UK_
     ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
      TargetStorage "Vest/Webbing_JayJays_Gen4_Gunner_01.et/Utility1/Pouch_JayJays_Utility1_MC.et"
      PrefabsToSpawn {
-      "{389ACBD8C4991F74}Prefabs/Items/Equipment/Radios/UK/Squad Radio/Radio_H4855_PRR.et"
+      "{47E3B8A72FB9F477}Prefabs/Items/Equipment/Radios/Radio_ANPRC343_PRR_GC.et"
      }
     }
     ItemsInitConfigurationItem "{610CC31278A75ED6}" {
