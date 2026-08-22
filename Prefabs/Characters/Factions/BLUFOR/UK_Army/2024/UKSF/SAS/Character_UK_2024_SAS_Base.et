@@ -17,6 +17,12 @@ SCR_ChimeraCharacter : "{542CBB6908CA71D8}Prefabs/Characters/Factions/BLUFOR/UK_
     m_sFaction "UK"
    }
   }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{848E4E853151A37A}Prefabs/Weapons/Grenades/L109/Grenade_L109A2_01.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{09BCBA657FCC1C71}Prefabs/Weapons/Grenades/L132/Smoke_L132A2.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
@@ -64,7 +70,7 @@ SCR_ChimeraCharacter : "{542CBB6908CA71D8}Prefabs/Characters/Factions/BLUFOR/UK_
      }
     }
     ItemsInitConfigurationItem "{65769C3450B9CD6E}" {
-     TargetStorage "Pants/Crye_GB4_Trousers_MC.et"
+     TargetStorage "Jacket/Crye_GB4_Shirt_MC.et"
      PrefabsToSpawn {
       "{013A731E59E8FB61}Prefabs/Items/Equipment/Radios/UK/Radio_ANPRC152.et"
      }

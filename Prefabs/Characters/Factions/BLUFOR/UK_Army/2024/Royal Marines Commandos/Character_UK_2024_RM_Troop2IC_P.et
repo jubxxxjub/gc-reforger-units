@@ -4,6 +4,7 @@ SCR_ChimeraCharacter : "{94DB2F66DDCD8783}Prefabs/Characters/Factions/BLUFOR/UK_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Troop 2IC"
+    Icon "{D83873CC7208A47D}UI/Textures/EditableEntities/Characters/BritishRanks/EditableEntity_Character_British_SGT.edds"
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -25,9 +26,6 @@ SCR_ChimeraCharacter : "{94DB2F66DDCD8783}Prefabs/Characters/Factions/BLUFOR/UK_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6488D75AD42345BE}" {
      TargetStorage "Back/Defcon_Ares_MTP.et"
-    }
-    ItemsInitConfigurationItem "{65C2BC458A9C0781}" {
-     TargetStorage "ArmoredVest/Vest_Crye_CPC_Rifleman_02_FDE.et"
     }
    }
   }

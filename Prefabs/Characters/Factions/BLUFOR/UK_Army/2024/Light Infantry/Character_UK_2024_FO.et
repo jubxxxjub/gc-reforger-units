@@ -45,6 +45,9 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{658F01CD7D92ED96}" {
+     TargetStorage "Jacket/PCS_Shirt_MTP.et"
+    }
     ItemsInitConfigurationItem "{68EB0D19F8945EC5}" {
      TargetStorage "ArmoredVest/Vest_Virtus_STV_Rifleman_05.et"
      TargetPurpose 64
@@ -76,11 +79,11 @@ SCR_ChimeraCharacter : "{BE42B6E6DE18536B}Prefabs/Characters/Factions/BLUFOR/UK_
       "{D702D65BA67771AA}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_Ball.et" "{D702D65BA67771AA}Prefabs/Weapons/Magazines/EMAG_BLK_MP_556x45_Ball.et"
      }
     }
-    ItemsInitConfigurationItem "{68EB0D19F8979232}" {
-     TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/Utility3/Pouch_Virtus_Utility_1_MTP.et"
-    }
-    ItemsInitConfigurationItem "{68EB0D19F8979231}" {
+    ItemsInitConfigurationItem "{6A208314518DFDAB}" {
      TargetStorage "Vest/Webbing_Virtus_H_Rig_Rifleman_01.et/Utility2/Pouch_Virtus_Utility_2_MTP.et"
+     PrefabsToSpawn {
+      "{9C1ED9ACDA865791}Prefabs/Weapons/Grenades/L132/Smoke_L152A1_Green.et" "{975C2B4A2B78B0FD}Prefabs/Weapons/Grenades/L132/Smoke_L154A1_Red.et" "{21CBEB00AC9073AE}Prefabs/Weapons/Grenades/L132/Smoke_L157A1_Purple.et"
+     }
     }
    }
   }
