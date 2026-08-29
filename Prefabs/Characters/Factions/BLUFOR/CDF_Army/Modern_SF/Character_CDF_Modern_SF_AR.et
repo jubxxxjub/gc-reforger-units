@@ -7,6 +7,13 @@ SCR_ChimeraCharacter : "{B522F4D4D4787B6B}Prefabs/Characters/Factions/BLUFOR/CDF
     Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
     m_Image "{DD93B2249E040245}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_LMG.edds"
    }
+   m_VariantData SCR_EditableEntityVariantData "{6A24706A6FB83785}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{6A367EB2B2185746}" {
+      m_sVariantPrefab "{C481B08FF9112D2B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/Variants/Character_CDF_Modern_SF_AR1.et"
+     }
+    }
+   }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{D918133ADE259E80}Prefabs/Weapons/MachineGuns/RPK74N/MG_RPK74N_Railed_Thermal.et"

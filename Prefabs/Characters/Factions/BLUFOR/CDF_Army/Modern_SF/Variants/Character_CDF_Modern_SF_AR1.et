@@ -1,0 +1,80 @@
+SCR_ChimeraCharacter : "{9408E4F80F400450}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/Character_CDF_Modern_SF_AR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{501238E4957D1433}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/Helmet_OPSCORE_XP_MC_Liberator_CDF.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{77492F31555EAD29}Prefabs/Characters/Vests/Vest_TV115/Vest_TV115_MC.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{64B94D8A4D92A4BD}Prefabs/Characters/Footwear/Boots_Altama/Footwear_Altama.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{F23AF79A715049C4}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_MG_FG.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4E37FE174E8C266C}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Coyote.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{647D5B11AAD7A21D}" {
+     TargetStorage "Jacket/Crye_G3_Combat_Shirt_UKC_MC.et"
+    }
+    ItemsInitConfigurationItem "{68829C1787C91897}" {
+     TargetStorage "Jacket/Crye_G3_Combat_Shirt_UKC_MC.et"
+    }
+    ItemsInitConfigurationItem "{647D5B112618E799}" {
+     TargetStorage "Vest/Vest_TV115_MG_FG.et/grenade/Pouch_GP106_RGD_Pouch_2_FG.et"
+    }
+    ItemsInitConfigurationItem "{647D5B1127F4DB0A}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{647D5B11103A12F3}" {
+     TargetStorage "Vest/Vest_TV115_MG_FG.et/grenade2/Pouch_GP106_RGD_Pouch_FG.et"
+    }
+    ItemsInitConfigurationItem "{68829C1060316CD0}" {
+     Enabled 0
+     TargetStorage "Vest/Vest_TV115_MG_FG.et/PKM1/Pouch_Mordor_PKM.et"
+     PrefabsToSpawn {
+      "{4FCBBDF274FD2157}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A24706B51368FEC}" {
+     Enabled 0
+     TargetStorage "Vest/Vest_TV115_MG_FG.et/PKM2/Pouch_Mordor_PKM.et"
+     PrefabsToSpawn {
+      "{4FCBBDF274FD2157}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{647D5B1B4C061352}" {
+     Enabled 0
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{647D5B1FB189C541}" {
+     Enabled 0
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+}
