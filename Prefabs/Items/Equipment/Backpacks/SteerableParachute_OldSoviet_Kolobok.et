@@ -1,0 +1,24 @@
+GenericEntity : "{C47F5D977AC94514}Prefabs/Items/Equipment/Backpacks/Stirling_Parachute.et" {
+ ID "511E9C6ADE70F798"
+ components {
+  MeshObject "{511E9C6ADE70F7BD}" {
+   Object "{F63FB77CF5C853D7}Assets/Items/Equipment/Backpacks/Backpack_Kolobok/Backpack_Kolobok_item.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03A40528FA}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB039E9715D1}" {
+    ItemDisplayName UIInfo "{5222CB03904B414C}" {
+     Name "Steerable Parachute"
+     Description "The finest soviet chutes in the whole of mother Russia!"
+    }
+   }
+   MaxCumulativeVolume 5000
+   MaxItemSize 20 20 20
+   m_fMaxWeight 15
+  }
+  BaseLoadoutClothComponent "{511E9C6ADE70F7BB}" {
+   WornModel "{63131CE6ACC7038F}Assets/Items/Equipment/Backpacks/Backpack_Kolobok/Backpack_Kolobok.xob"
+   ItemModel "{F63FB77CF5C853D7}Assets/Items/Equipment/Backpacks/Backpack_Kolobok/Backpack_Kolobok_item.xob"
+   DeflatedModel "{612FEDC4900077AB}Assets/Items/Equipment/Backpacks/Backpack_Kolobok/Backpack_Kolobok_Inflated.xob"
+  }
+ }
+}
