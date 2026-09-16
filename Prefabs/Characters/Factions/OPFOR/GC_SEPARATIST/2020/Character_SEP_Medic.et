@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/Character_SEP_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/Character_SEP_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -35,7 +35,7 @@ SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_S
      Prefab "{1D6A5BCF4E9942A9}Prefabs/Characters/Uniforms/Pants_Cargo_2.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{64B94D8A4D92A4BD}Prefabs/Characters/Footwear/Boots_Altama/Footwear_Altama.et"
+     Prefab "{F9AE2BDEB36D89DF}Prefabs/Characters/Footwear/CombatBoots_Rocky_S2Vs_black.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{4805E67E2AE30F8D}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_M5.et"

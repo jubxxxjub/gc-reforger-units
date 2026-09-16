@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_SEP/Character_SEP_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/Character_SEP_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -7,10 +7,10 @@ SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_S
     Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
     m_Image "{D8CD3A9B019B8CD2}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_AT.edds"
     m_aAuthoredLabels + {
-     25
+     TRAIT_ARMORPIERCING
     }
     m_aAutoLabels {
-     122 40
+     SIZE_M ROLE_ANTITANK
     }
    }
   }
@@ -38,7 +38,7 @@ SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_S
      Prefab "{B229872AD9A322A4}Prefabs/Characters/Uniforms/Trousers_Combat_68Pat_DPM_01.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{64B94D8A4D92A4BD}Prefabs/Characters/Footwear/Boots_Altama/Footwear_Altama.et"
+     Prefab "{203EEA924B049EF1}Prefabs/Characters/Footwear/JungleBoots_01/JungleBoots_01.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{0D39750E5695B9D8}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Gunner.et"

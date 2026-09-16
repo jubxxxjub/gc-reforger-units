@@ -37,7 +37,7 @@ SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_S
      Prefab "{5E0AD6D55C0B9657}Prefabs/Characters/Uniforms/Pants_TrousersV2/Pants_TrousersV2_Grey.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{02585ED96CFE147F}Prefabs/Characters/Footwear/Saloman_XUltra/Boots_Salomon_XUltra_Black.et"
+     Prefab "{203EEA924B049EF1}Prefabs/Characters/Footwear/JungleBoots_01/JungleBoots_01.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{779798513C980AD9}Prefabs/Characters/Vests/Vest_AACPC/variants/Vest_AACPC_arsarmaHSGI_FG_1.et"
@@ -90,7 +90,7 @@ SCR_ChimeraCharacter : "{B26ECD634EF69482}Prefabs/Characters/Factions/OPFOR/GC_S
     ItemsInitConfigurationItem "{62E8A4CC29FE4561}" {
      TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_FG_1.et/radio/Pouch_UP111_radioClosed_FG.et"
      PrefabsToSpawn {
-      "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/Separatist/Radio_R187P1_OLD_Separatist.et"
+      "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/RU/Radio_R187P1_OLD.et"
      }
     }
     ItemsInitConfigurationItem "{62E8A4CE2B5B197E}" {
