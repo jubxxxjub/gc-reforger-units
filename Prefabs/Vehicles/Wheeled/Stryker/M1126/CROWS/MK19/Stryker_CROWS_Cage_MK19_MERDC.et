@@ -1,3 +1,29 @@
 Vehicle : "{126A563BC651CB66}Prefabs/Vehicles/Wheeled/Stryker/M1126/CROWS/MK19/Stryker_CROWS_Cage_MK19.et" {
  ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6A6906D808880D07}" {
+     SourceMaterial "STYKER_base_exterior_Body"
+     AssignedMaterial "{86D026CD28DAE14E}Assets/Vehicles/Wheeled/Stryker/Data/Stryker_Base_Exterior_MERDC.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo IFV_Top {
+     Prefab "{EC64C822AF1A55D8}Prefabs/Vehicles/Wheeled/Stryker/VehParts/Stryker_IFV_Top_MERDC.et"
+    }
+    RegisteringComponentSlotInfo Cage {
+     Prefab "{E75436A7FC5EAB10}Prefabs/Vehicles/Wheeled/Stryker/VehParts/Cage/CageFull_MERDC.et"
+    }
+    RegisteringComponentSlotInfo CageBackDoor {
+     Prefab "{CDC9B058FCD74FB7}Prefabs/Vehicles/Wheeled/Stryker/VehParts/Cage/CageBackDoor_MERDC.et"
+    }
+    RegisteringComponentSlotInfo CageBackDoor_02 {
+     Prefab "{FDD5DCB5087A821F}Prefabs/Vehicles/Wheeled/Stryker/VehParts/Cage/CageBackDoor_02_MERDC.et"
+    }
+   }
+  }
+ }
 }

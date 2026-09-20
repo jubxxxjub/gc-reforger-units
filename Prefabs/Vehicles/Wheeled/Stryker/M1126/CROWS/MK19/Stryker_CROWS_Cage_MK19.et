@@ -10,5 +10,12 @@ Vehicle : "{5F17F054025E8B30}Prefabs/Vehicles/Wheeled/Stryker/M1126/CROWS/Stryke
     }
    }
   }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo CROWS {
+     Prefab "{794397777BC5BF68}Prefabs/Vehicles/Wheeled/Stryker/VehParts/Turrets/MK19/STRYKER_CROWS_Turret_MK19.et"
+    }
+   }
+  }
  }
 }
