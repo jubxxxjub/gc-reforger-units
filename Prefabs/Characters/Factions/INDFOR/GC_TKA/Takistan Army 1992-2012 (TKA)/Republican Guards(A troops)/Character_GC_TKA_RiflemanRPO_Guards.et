@@ -1,0 +1,11 @@
+SCR_ChimeraCharacter : "{0AA8FB3C9DDBE719}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_Rifleman_Guards.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{885C84142872A9F3}Prefabs/Weapons/Rifles/ARY_G3/ARY_G3_G3A3/Variants/Quality/ARY_Rifle_G3A3_Quality_WideBlack_x4.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{3F38EE51E904AE5B}Prefabs/Weapons/Launchers/RPOA/Launcher_RPOA.et"
+  }
+ }
+}

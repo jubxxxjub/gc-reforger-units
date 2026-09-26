@@ -1,0 +1,69 @@
+SCR_ChimeraCharacter : "{21A1481C0C4345AF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{885C84142872A9F3}Prefabs/Weapons/Rifles/ARY_G3/ARY_G3_G3A3/Variants/Quality/ARY_Rifle_G3A3_Quality_WideBlack_x4.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D4028ED16DEE99EE}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_camonet.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{27FB543A8D93378D}Prefabs/Characters/Uniforms/Jacket_Cuba_BDU.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{5A7AF2858ABE87B4}Prefabs/Characters/Vests/Vest_6B23/Vest_6B23_base.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{F05A35BCC44BE9FC}Prefabs/Characters/Footwear/TankerBoots_US_01/TankerBoots_US_01.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{0CA2E8A4AD6B31D8}Prefabs/Characters/Vests/Vest_6B23/Variants/Vest_6b23_pouches_base.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{09DC6F485470470E}Prefabs/Characters/Handwear/Gloves_Leather_01/Gloves_Leather_Black_01.et"
+    }
+    LoadoutSlotInfo EarWear {
+     Prefab "{F8554F236521F974}Prefabs/Characters/HeadGear/Headphones_6M2/headphones_6m2.et"
+    }
+    LoadoutSlotInfo FaceWear {
+     Prefab "{22628635281CD0C2}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Balaclava.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{655D4810A052E04D}" {
+     TargetStorage "Vest/Vest_6b23_pouches_base.et/radio/Pouch_Ratnik_ak_pouch_new_2.et"
+     PrefabsToSpawn {
+      "{1BDFF5190BF7FB99}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Steel/ARY_Magazine_762x51_G3_20Rnd_Surplus_Ball.et" "{1BDFF5190BF7FB99}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Steel/ARY_Magazine_762x51_G3_20Rnd_Surplus_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{655D480C2600110F}" {
+     PrefabsToSpawn {
+      "{1BDFF5190BF7FB99}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Steel/ARY_Magazine_762x51_G3_20Rnd_Surplus_Ball.et" "{1BDFF5190BF7FB99}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Steel/ARY_Magazine_762x51_G3_20Rnd_Surplus_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A601C0407AAA888}" {
+     TargetStorage "Vest/Vest_6b23_pouches_base.et/slot/Pouch_Ratnik_ak_pouch_new_1.et"
+     PrefabsToSpawn {
+      "{1BDFF5190BF7FB99}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Steel/ARY_Magazine_762x51_G3_20Rnd_Surplus_Ball.et" "{1BDFF5190BF7FB99}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Steel/ARY_Magazine_762x51_G3_20Rnd_Surplus_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A601C04020E951C}" {
+     TargetStorage "Vest/Vest_6b23_pouches_base.et/slot2/Pouch_Ratnik_ak_pouch_new_2.et"
+     PrefabsToSpawn {
+      "{1BDFF5190BF7FB99}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Steel/ARY_Magazine_762x51_G3_20Rnd_Surplus_Ball.et" "{1BDFF5190BF7FB99}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Steel/ARY_Magazine_762x51_G3_20Rnd_Surplus_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A601C041FF3B3EB}" {
+     TargetStorage "Vest/Vest_6b23_pouches_base.et/slot3/Pouch_Ratnik_ak_pouch_new_3.et"
+     PrefabsToSpawn {
+      "{1BDFF5190BF7FB99}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Steel/ARY_Magazine_762x51_G3_20Rnd_Surplus_Ball.et" "{1BDFF5190BF7FB99}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Steel/ARY_Magazine_762x51_G3_20Rnd_Surplus_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}
