@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{CF7879D6698DDD50}Prefabs/Weapons/Rifles/ARY_G3/ARY_G3_G3A4/Variants/Quality/ARY_Rifle_G3A4_Quality_HK79_Black_x4.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

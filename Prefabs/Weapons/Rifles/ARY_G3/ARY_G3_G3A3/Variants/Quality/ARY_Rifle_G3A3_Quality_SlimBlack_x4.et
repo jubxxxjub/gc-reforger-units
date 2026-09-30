@@ -1,0 +1,14 @@
+GenericEntity : "{8D0B16C1ACAD7E38}Prefabs/Weapons/Rifles/ARY_G3/ARY_G3_G3A3/Variants/Quality/ARY_Rifle_G3A3_Quality_SlimBlack.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{65F73688A412FC01}" {
+     AttachmentSlot InventoryStorageSlot "{65F73688A0F87C60}" {
+      Prefab "{B8A2547514B6F9FF}Prefabs/Weapons/Attachments/Optics/ARY_Optic_Flashlight_ClawMount/ARY_Flashlight_Clawmount.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{632D1F47BA773282}Prefabs/Weapons/Rifles/ARY_G3/ARY_G3_SG1/ARY_Rifle_G3_SG1_x6.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

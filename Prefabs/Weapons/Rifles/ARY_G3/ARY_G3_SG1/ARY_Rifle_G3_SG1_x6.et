@@ -1,0 +1,14 @@
+GenericEntity : "{9DE7A9D5E792E720}Prefabs/Weapons/Rifles/ARY_G3/ARY_G3_SG1/ARY_Rifle_G3_SG1.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{65F73688A412FC01}" {
+     AttachmentSlot InventoryStorageSlot "{65F73688A0F87C60}" {
+      Prefab "{03E8553297A72CCA}Prefabs/Weapons/Attachments/Optics/ARY_Optic_SG1/ARY_Optic_G3_DA_1-5_6x.et"
+     }
+    }
+   }
+  }
+ }
+}

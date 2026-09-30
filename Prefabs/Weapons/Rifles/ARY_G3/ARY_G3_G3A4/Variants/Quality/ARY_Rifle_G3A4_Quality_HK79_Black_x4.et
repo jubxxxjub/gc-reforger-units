@@ -1,0 +1,14 @@
+GenericEntity : "{7130D1CBF5729265}Prefabs/Weapons/Rifles/ARY_G3/ARY_G3_G3A4/Variants/Quality/ARY_Rifle_G3A4_Quality_HK79_Black.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{65F73688A412FC01}" {
+     AttachmentSlot InventoryStorageSlot "{65F73688A0F87C60}" {
+      Prefab "{A78EF315BE900C23}Prefabs/Weapons/Attachments/Optics/ARY_Optic_ZF4/ARY_Optic_Z24_4x.et"
+     }
+    }
+   }
+  }
+ }
+}
